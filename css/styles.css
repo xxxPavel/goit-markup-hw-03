@@ -151,8 +151,23 @@ address {
 .hero-button:focus {
   background-color: #404bbf;
 }
+.hero-title {
+  max-width: 496px;
+}
 /* #endregion hero */
 
+/* SECTION 2 */
+.section-two-ul {
+  display: flex;
+  gap: 24px;
+}
+.section-two {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  visibility: none;
+}
 .logotype {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
