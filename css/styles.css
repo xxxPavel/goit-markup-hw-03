@@ -13,6 +13,26 @@ li {
 a {
   text-decoration: none;
 }
+
+img {
+  display: block;
+}
+
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 address {
   font-style: normal;
 }
