@@ -1,3 +1,4 @@
+/* #region main containers */
 body {
   color: #434455;
   font-family: 'Roboto', sans-serif;
@@ -13,12 +14,18 @@ li {
 a {
   text-decoration: none;
 }
-
 img {
   display: block;
 }
-
 header {
+  display: flex;
+  border-bottom: 1px solid #e7e9fc;
+}
+/* #endregion */
+
+/* -------- HEADER --------- */
+header {
+  display: flex;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -36,6 +43,65 @@ header {
 address {
   font-style: normal;
 }
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+}
+.logotype-phrase-studio {
+  color: #2e2f42; /*navy blue*/
+}
+.menu-nav {
+  font-family: 'Raleway', sans-serif;
+  margin-right: 0;
+  font-size: 18px;
+  letter-spacing: 2%;
+  line-height: 24px;
+  color: #2e2f42;
+  font-weight: 700;
+  display: flex;
+  gap: 40px;
+}
+.menu-nav-li-a {
+  margin-right: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
+}
+.menu-nav-li-a:hover,
+.menu-nav-li-a:focus {
+  color: #404bbf;
+}
+.address {
+  display: flex;
+}
+.address-ul {
+  display: flex;
+  gap: 40px;
+}
+.address-ul a {
+  color: red;
+}
+.mailto {
+  letter-spacing: 0.02em;
+  /* color: #434455; */
+}
+
+.mailto:hover,
+.mailto:focus {
+  letter-spacing: 0.02em;
+  /* color: #404bbf; */
+}
+/* --------- END HEADER ------- */
 .roboto {
   font-family: 'Roboto', serif;
   font-optical-sizing: auto;
@@ -88,56 +154,13 @@ address {
   text-transform: uppercase;
 }
 
-.menu-nav {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  letter-spacing: 2%;
-  line-height: 24px;
-  color: #2e2f42;
-  font-weight: 700;
-}
-
 .main-adress {
   color: #434455; /*slate*/
   font-style: normal;
 }
 
-.logo {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-}
-.logotype-phrase-studio {
-  color: #2e2f42; /*navy blue*/
-}
 .footer-logotype-phrase-studio {
   color: #f4f4fd;
-}
-.menu-nav-li-a {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.menu-nav-li-a:hover,
-.menu-nav-li-a:focus {
-  color: #404bbf;
-}
-
-.mailto {
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.mailto:hover,
-.mailto:focus {
-  letter-spacing: 0.02em;
-  color: #404bbf;
 }
 
 .section-feature {
