@@ -221,6 +221,10 @@ address {
 }
 
 /* SECTION 3 */
+.container-column{
+  display: flex;
+  flex-direction: column;
+}
 .section-three {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -242,12 +246,19 @@ address {
   padding: 32px 0;
 }
 
-.worker-h3 {
+.worker-h3 {  
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
   text-align: center;
   margin-bottom: 8px;
 }
 
 .worker-p {
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -259,6 +270,7 @@ address {
   text-transform: capitalize;
   color: #2e2f42;
   margin-bottom: 72px;
+  
 }
 
 .visually-hidden {
