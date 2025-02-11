@@ -165,10 +165,10 @@ address {
   gap: 24px;
   
 }
-.section-two-li-first {
+/* .section-two-li-first {
    width: calc((100% - 72px) / 4);
-}
-.section-two-li-first:first-child {
+} */
+.abc:first-child {
    width: calc((100% - 72px) / 4);
 }
 
