@@ -122,8 +122,7 @@ address {
   background-color: #2e2f42;
   padding: 188px 0;
 }
-.hero-div {
-}
+
 .hero h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 56px;
@@ -157,12 +156,15 @@ address {
 /* #endregion hero */
 
 /* SECTION 2 */
+.section-two {
+  padding: 120px 0;
+}
 .section-two-ul {
   display: flex;
   gap: 24px;
 }
-.section-two {
-  padding: 120px 0;
+.section-two-li-first {
+  width: calc((100% - 72px) / 4);
 }
 
 .logotype {
@@ -243,6 +245,45 @@ address {
   color: #2e2f42;
   margin-bottom: 72px;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* SECTION 4 */
+.section-four {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section-four-ul {
+  display: flex;
+  flex-wrap: wrap; /* для переносу елементів списку на новий рядок якщо їм не вистачає місця в попередньому */
+  column-gap: 24px; /* для визначення горизонтальних відступів між пунктами списку  */
+  row-gap: 48px; /* для визначення вертикальних відступів між елементами списку якщо вони переносяться на новий рядок */
+}
+
+.section-four-h2 {
+  margin-bottom: 72px;
+}
+.section-four-first-li {
+  width: calc(
+    (100% - 48px) / 3
+  ); /* для визначення ширини для елемента списку (від загальної ширини екрану віднімаємо суму відступів між пунктами і ділимо це на кількість пунктів списку в одному рядку) */
+}
+.portfolio-card-about {
+  padding: 32px 16px; /* для визначення відступів від країв контейнера */
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
 .portfolio-card-p {
   font-size: 16px;
   line-height: 1.5;
@@ -270,28 +311,16 @@ address {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
+/* FOOTER */
+
 .footer {
   background-color: #2e2f42;
 }
 .footer-p {
   color: #f4f4fd;
   letter-spacing: 0.02em;
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.section-two-li-first {
-  width: calc((100% - 72px) / 4);
+  padding: 100px 0;
+  max-width: 264px;
 }
