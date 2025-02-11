@@ -163,7 +163,7 @@ address {
   display: flex;
   gap: 24px;
 }
-.section-two-li-first {
+.abc {
    width: calc((100% - 72px) / 4);
 }
 
