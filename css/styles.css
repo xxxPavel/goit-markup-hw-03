@@ -158,12 +158,17 @@ address {
 /* SECTION 2 */
 .section-two {
   padding: 120px 0;
+  
 }
 .section-two-ul {
   display: flex;
   gap: 24px;
+  
 }
-.abc {
+.section-two-li-first {
+   width: calc((100% - 72px) / 4);
+}
+.section-two-li-first:first-child {
    width: calc((100% - 72px) / 4);
 }
 
