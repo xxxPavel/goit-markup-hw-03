@@ -35,10 +35,10 @@ header {
 }
 
 .container {
-  width: 1440px;
+  width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  box-sizing: border-box;
+  box-sizing: content-box;/* не учитывать падинг в общую ширину - накладывать поверх width */
   display: flex;
 }
 
@@ -156,7 +156,7 @@ address {
 }
 /* #endregion hero */
 
-/* SECTION 2 */
+/* SECTION 2 ------------------------------------------------------------*/
 .section-two {
   padding: 120px 0;
   border: 1px solid black;
@@ -350,6 +350,4 @@ address {
 .footer-a {
   display: inline-block;
   margin-bottom: 16px;
-}
-.section-four-h2 {
 }
