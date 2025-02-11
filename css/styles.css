@@ -35,9 +35,10 @@ header {
 }
 
 .container {
-  width: 1158px;
+  width: 1440px;
   margin: 0 auto;
   padding: 0 15px;
+  box-sizing: border-box;
   display: flex;
 }
 
@@ -158,19 +159,27 @@ address {
 /* SECTION 2 */
 .section-two {
   padding: 120px 0;
+  border: 1px solid black;
   
 }
 .section-two-ul {
   display: flex;
   gap: 24px;
+  flex-direction:row;
+  background-color: aqua;
+  margin: 0 auto;
+  padding: 0;
+
   
 }
-/* .section-two-li-first {
+.section-two-li {
+   width: calc((100% - 72px) / 4);
+  
+   background-color: rgb(240, 97, 97);
+}
+/* .abc:first-child {
    width: calc((100% - 72px) / 4);
 } */
-.abc:first-child {
-   width: calc((100% - 72px) / 4);
-}
 
 .logotype {
   font-family: 'Raleway', sans-serif;
