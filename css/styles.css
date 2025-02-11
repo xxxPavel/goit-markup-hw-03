@@ -164,7 +164,7 @@ address {
   gap: 24px;
 }
 .section-two-li-first {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .logotype {
@@ -205,6 +205,8 @@ address {
 .section-two-p {
   letter-spacing: 0.02em;
 }
+
+/* SECTION 3 */
 .section-three {
   background-color: #f4f4fd;
   padding: 120px 0;
@@ -218,7 +220,7 @@ address {
   background-color: #ffffff;
 }
 
-.first-li {
+.section-three-first-li {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
@@ -313,14 +315,22 @@ address {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+
 /* FOOTER */
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-p {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   padding: 100px 0;
   max-width: 264px;
+}
+.footer-a {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.section-four-h2 {
 }
