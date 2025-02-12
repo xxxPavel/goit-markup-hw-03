@@ -311,9 +311,10 @@ address {
   row-gap: 48px; 
   border:0;
   background-color: rgb(46, 0, 249);
-  margin: 0 auto;
-  padding: 0 5px;
+
   box-sizing: border-box;
+    margin: 0 auto;
+  padding: 0;
 
 }
 
