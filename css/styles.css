@@ -235,7 +235,7 @@ address {
   padding: 120px 0;
 }
 
-.section-three-ul {
+.team-list {
   display: flex;
   gap: 24px;
 }
