@@ -293,19 +293,42 @@ address {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
+
 .portfolio-list {
   display: flex;
-  flex-wrap: wrap; /* для переносу елементів списку на новий рядок якщо їм не вистачає місця в попередньому */
-  column-gap: 24px; /* для визначення горизонтальних відступів між пунктами списку  */
-  row-gap: 48px; /* для визначення вертикальних відступів між елементами списку якщо вони переносяться на новий рядок */
+   /* для переносу елементів списку на новий рядок якщо їм не вистачає місця в попередньому */
+  flex-wrap: wrap;
+  /* для визначення горизонтальних відступів між пунктами списку  */
+  column-gap: 24px; 
+  /* для визначення вертикальних відступів між елементами списку якщо вони переносяться на новий рядок */
+  row-gap: 48px; 
+  border:0;
+  background-color: rgb(46, 0, 249);
+  margin: 0 auto;
+  padding: 0 5px;
+  box-sizing: border-box;
 
 }
+
 .portfolio-card {
   width: calc((100% - 48px) / 3);
-  overflow: hidden;
+ 
+  /* overflow: hidden; */
 
    background-color: rgb(240, 97, 97);
+   border:0;
+   padding: 0;
+   box-sizing: border-box;
+
 }
+
+.portfolio-card img {
+  margin: 0;
+  padding: 0;
+}
+
+
 
 .portfolio-title {
   font-weight: 500;
