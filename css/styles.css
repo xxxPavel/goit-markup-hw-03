@@ -238,11 +238,12 @@ address {
 .team-list {
   display: flex;
   gap: 24px;
+  margin: 0 auto;
+  padding: 0;
 }
 .team-card {
   background-color: #ffffff;
-  flex-basis: calc((100% - 72px) / 4);
-    
+  flex-basis: calc((100% - 72px) / 4);    
   border-radius: 0px 0px 4px 4px;
 }
 
