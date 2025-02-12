@@ -40,7 +40,6 @@ header {
   padding: 0 15px;
   box-sizing: content-box;/* не учитывать падинг в общую ширину - накладывать поверх width */
   display: flex;
-    flex-direction: column;
 }
 
 address {
@@ -237,10 +236,11 @@ address {
 }
 .section-three-li {
   background-color: #ffffff;
-
-    width: calc((100% - 72px) / 4)
+    width: calc((100%-72px)/4);
+    
   border-radius: 0px 0px 4px 4px;
 }
+
 
 
 
@@ -366,4 +366,7 @@ address {
 .footer-a {
   display: inline-block;
   margin-bottom: 16px;
+}
+.container-block{
+  display:block;
 }
