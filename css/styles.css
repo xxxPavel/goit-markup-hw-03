@@ -17,33 +17,43 @@ a {
 img {
   display: block;
 }
-header {
-  display: flex;
-  border-bottom: 1px solid #e7e9fc;
-}
-/* #endregion */
-
-/* -------- HEADER --------- */
-header {
-  display: flex;
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.nav {
-  display: flex;
-  align-items: center;
-}
 
 .container {
-  width: 1158px;
+  width: 1158px; /* 1158px =  1128 + (2x15)*/
   margin: 0 auto;
   padding: 0 15px;
   box-sizing: content-box;/* не учитывать падинг в общую ширину - накладывать поверх width */
   display: flex;
 }
+/* #endregion */
+
+/* -------- HEADER --------- */
+.container-header {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: content-box;/* не учитывать падинг в общую ширину - накладывать поверх width */
+  display: flex;
+  justify-content: space-between; /* Розподіляє елементи рівномірно, крайні по краях */
+}
+
+header {
+
+  /* display: flex; */
+  /* border-bottom: 1px solid #e7e9fc; */
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+
+}
+
 
 address {
   font-style: normal;
+  font-family: "Roboto", sans-serif;
 }
 
 .logo {
@@ -66,7 +76,7 @@ address {
   letter-spacing: 2%;
   line-height: 24px;
   color: #2e2f42;
-  font-weight: 700;
+  font-weight: 500; /* медиум */
   display: flex;
   gap: 40px;
 }
@@ -85,23 +95,31 @@ address {
 }
 .address {
   display: flex;
+  justify-content: flex-end;
 }
 .address-ul {
   display: flex;
   gap: 40px;
-}
-.address-ul a {
-  color: red;
-}
-.mailto {
-  letter-spacing: 0.02em;
-  /* color: #434455; */
+  
 }
 
-.mailto:hover,
-.mailto:focus {
+.mailto {
   letter-spacing: 0.02em;
-  /* color: #404bbf; */
+  padding: 24px 0;
+  color: #434455;
+}
+
+.address-ul a {
+  color: #434455;
+}
+
+.address-ul a {
+  color: #434455;
+}
+.address-ul a:hover,
+.address-ul a:focus {
+  letter-spacing: 0.02em;
+  color: #404BBF;
 }
 /* --------- END HEADER ------- */
 .roboto {
