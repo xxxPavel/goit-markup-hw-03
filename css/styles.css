@@ -34,6 +34,9 @@ img {
 /* #endregion */
 
 /* -------- HEADER --------- */
+.header{
+  border-bottom: 1px solid #e7e9fc;
+}
 .container-header {
   width: 1158px;
   margin: 0 auto;
@@ -41,6 +44,7 @@ img {
   box-sizing: content-box;/* не учитывать падинг в общую ширину - накладывать поверх width */
   display: flex;
   justify-content: space-between; /* Розподіляє елементи рівномірно, крайні по краях */
+   
 }
 
 .nav {
@@ -247,6 +251,7 @@ address {
 .section-three {
   background-color: #f4f4fd;
   padding: 120px 0;
+  background-color: #4d5ae5;
 }
 
 .team-list {
@@ -254,19 +259,35 @@ address {
   gap: 24px;
   margin: 0 auto;
   padding: 0;
+  background-color: aquamarine;
+  justify-content:space-between ;
 }
 .team-card {
   background-color: #ffffff;
-  /* flex-basis: calc((100% - 72px) / 4);     */
+  width: calc((100% - 72px) / 4);   
+  box-sizing: border-box;
+
+
   border-radius: 0px 0px 4px 4px;
   padding: 0;
+  margin: 0; 
+  border: 0;
+}
+
+.team-card img {
   margin: 0;
+  pad: 0;
+  display: block;
+  letter-spacing: 0;;
+  width: 100%; 
 }
 
 
 
 
 .worker-bio {
+  width: 264px; /* Явно задаем ширину */
+  margin: 0 auto; /* Центрируем, если нужно */
   padding: 32px 0;
 }
 
@@ -342,6 +363,7 @@ address {
 .portfolio-card img {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .portfolio-title {
