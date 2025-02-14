@@ -44,6 +44,7 @@ img {
   box-sizing: content-box;/* не учитывать падинг в общую ширину - накладывать поверх width */
   display: flex;
   justify-content: space-between; /* Розподіляє елементи рівномірно, крайні по краях */
+  padding: 0 15px
    
 }
 
@@ -353,7 +354,8 @@ address {
 }
 
 .portfolio-card {
-  /* width: calc((100% - 48px) / 3); */ 
+
+  width: calc((100% - 48px) / 3); 
   /* overflow: hidden; */
    border:0;
    padding: 0;
