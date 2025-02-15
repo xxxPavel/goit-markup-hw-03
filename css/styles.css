@@ -250,9 +250,9 @@ address {
   flex-direction: column;
 }
 .section-three {
-  background-color: #f4f4fd;
+  background-color: #F4F4FD;
   padding: 120px 0;
-  background-color: #4d5ae5;
+
 }
 
 .team-list {
@@ -260,7 +260,7 @@ address {
   gap: 24px;
   margin: 0 auto;
   padding: 0;
-  background-color: aquamarine;
+
   justify-content:space-between ;
 }
 .team-card {
@@ -421,14 +421,33 @@ address {
   padding: 100px 0;
 }
 .footer-p {
+  font-family: "Roboto",sans-serif;
   color: #f4f4fd;
-  letter-spacing: 0.02em;
-  /* padding: 100px 0; */
+  letter-spacing:2%;
   max-width: 264px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;;
+
+
 }
 .footer-a {
   display: inline-block;
   margin-bottom: 16px;
+  text-transform: uppercase;
+
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  color: #4d5ae5;
+
+
+
+
 }
 .container-block{
   display:block;
